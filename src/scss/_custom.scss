@@ -1,1 +1,13 @@
 // Here you can add other styles
+.card-body #transaction-list-body {
+  overflow-x: auto;
+}
+
+.card-footer #transaction-list-page-number {
+  margin-inline-end: auto;
+}
+
+#transaction-list-footer {
+  display: inline-flex;
+  align-items: baseline;
+}
