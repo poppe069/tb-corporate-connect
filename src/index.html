@@ -54,19 +54,28 @@
       
     </div>
     <ul class="c-sidebar-nav">
-      <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="index.html">
+      <li class="c-sidebar-nav-item">
+        <a class="c-sidebar-nav-link" href="index.html">
           <svg class="c-sidebar-nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-speedometer"></use>
-          </svg> Dashboard<span class="badge badge-info">NEW</span></a></li>
+          </svg> Dashboard<span class="badge badge-info">NEW</span>
+        </a>
+      </li>
       <li class="c-sidebar-nav-title">Monitoring</li>
-      <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
+      <li class="c-sidebar-nav-item">
+        <a class="c-sidebar-nav-link" href="colors.html">
           <svg class="c-sidebar-nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-drop1"></use>
-          </svg> Transaction List</a></li>
-      <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="typography.html">
+          </svg> Transaction List
+        </a>
+      </li>
+      <li class="c-sidebar-nav-item">
+        <a class="c-sidebar-nav-link" href="typography.html">
           <svg class="c-sidebar-nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-pencil"></use>
-          </svg> Transaction Detail</a></li>
+          </svg> Transaction Detail
+        </a>
+      </li>
       <!--
       <li class="c-sidebar-nav-title">Components</li>
       <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle"
@@ -208,10 +217,15 @@
         <svg class="c-icon c-icon-lg">
           <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-menu"></use>
         </svg>
-      </button><a class="c-header-brand d-lg-none" href="#">
+      </button>
+      <a class="c-header-brand d-lg-none" href="#">
+        <!--
         <svg width="118" height="46" alt="CoreUI Logo">
           <use xlink:href="assets/brand/coreui.svg#full"></use>
-        </svg></a>
+        </svg>
+        -->
+        <img class="c-sidebar-brand-full" width="126" height="59" alt="Krungsri Logo" src="assets/brand/krungsri-logo-2.png"/>
+      </a>
       <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar"
         data-class="c-sidebar-lg-show" responsive="true">
         <svg class="c-icon c-icon-lg">
@@ -321,6 +335,8 @@
           <div class="fade-in">
             <div class="row">
               <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
                 <div class="card">
                   <div class="card-header">
                     <h4>Transaction List</h4>
@@ -507,6 +523,8 @@
                   </div>
                 </div>
               </div>
+              </div>
+              </div>
             </div>
           </div>
         </div>
@@ -523,7 +541,9 @@
   <script src="node_modules/@coreui/icons/js/svgxuse.min.js"></script>
   <!--<![endif]-->
   <!-- Plugins and scripts required by this view-->
+  <!--
   <script src="node_modules/@coreui/chartjs/dist/js/coreui-chartjs.bundle.js"></script>
+  -->
   <script src="node_modules/@coreui/utils/dist/coreui-utils.js"></script>
   <script src="js/main.js"></script>
 </body>
